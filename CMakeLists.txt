@@ -2,13 +2,14 @@
 cmake_minimum_required(VERSION 3.0)
 
 PROJECT(READ)
-message(STATUS "NOMACS_INCLUDE_DIRECTORY: ${NOMACS_INCLUDE_DIRECTORY}")
 add_subdirectory(nomacs/ImageLounge)
-message(STATUS "NOMACS_INCLUDE_DIRECTORY: ${NOMACS_INCLUDE_DIRECTORY}")
 add_subdirectory(ReadFramework)
-message(STATUS "NOMACS_INCLUDE_DIRECTORY: ${NOMACS_INCLUDE_DIRECTORY}")
 set(NOMACS_VARS_ALREADY_SET true)
-message(STATUS "NOMACS_INCLUDE_DIRECTORY: ${NOMACS_INCLUDE_DIRECTORY}")
 set(RDF_VARS_ALREADY_SET true)
-message(STATUS "NOMACS_INCLUDE_DIRECTORY: ${NOMACS_INCLUDE_DIRECTORY}")
 add_subdirectory(ReadModules)
+
+#debug for printing out all variables 
+#get_cmake_property(_variableNames VARIABLES)
+#foreach (_variableName ${_variableNames})
+#    message(STATUS "${_variableName}=${${_variableName}}")
+#endforeach()
