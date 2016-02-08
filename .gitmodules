@@ -1,0 +1,9 @@
+[submodule "ReadFramework"]
+	path = ReadFramework
+	url = git@github.com:TUWien/ReadFramework.git
+[submodule "ReadModules"]
+	path = ReadModules
+	url = git@github.com:TUWien/ReadModules.git
+[submodule "nomacs"]
+	path = nomacs
+	url = git@github.com:nomacs/nomacs.git
