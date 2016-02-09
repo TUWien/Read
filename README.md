@@ -1,12 +1,14 @@
 # Read
 Contains main cmake of the ReadFramework to build to complete system
 
+note: to use this repository you need a github user and a publickey has to be uplodated to github (submodules of git are referenced via the ssh git@github.com url)
+
 ## Build on Windows
 
 todo
 
 ## Build on Ubuntu
-note that Qt 5.5 is needed, thus Ubuntu version must be >= 16.04 or backports of Qt 5.5 have to be used (see .travis.yml for an ppa repository and names packages which need to be installed)
+note: Qt 5.5 is needed, thus Ubuntu version must be >= 16.04 or backports of Qt 5.5 have to be used (see .travis.yml for an ppa repository and names packages which need to be installed)
 
 Get required packages:
 
@@ -22,7 +24,7 @@ This will by default place the source into ./Read
 Go to the Read directory and update the submodules
 ``` console
 cd Read
-git submodules update --init --remote --merge
+git submodule update --init --remote --merge
 cmake .
 ```
 Compile READ: 
