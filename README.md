@@ -22,7 +22,7 @@ This will by default place the source into ./Read
 Go to the Read directory and update the submodules
 ``` console
 cd Read
-git submodules update
+git submodules update --init --remote --merge
 cmake .
 ```
 Compile READ: 
