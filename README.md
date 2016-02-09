@@ -1,5 +1,5 @@
 # Read
-Contains main cmake of the ReadFramework to build to complete system
+Contains main cmake to build to complete READ system (nomacs, ReadFramework, and ReadModules). The READ project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 674943.
 
 note: to use this repository you need a github user and a publickey has to be uplodated to github (submodules of git are referenced via the ssh git@github.com url)
 
