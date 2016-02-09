@@ -1,6 +1,9 @@
 # Read
 Contains main cmake of the ReadFramework to build to complete system
 
+## Build on Windows
+
+todo
 
 ## Build on Ubuntu
 note that Qt 5.5 is needed, thus Ubuntu version must be >= 16.04 or backports of Qt 5.5 have to be used (see .travis.yml for an ppa repository and names packages which need to be installed)
