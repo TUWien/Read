@@ -7,6 +7,8 @@ set(GLOBAL_READ_BUILD true) # needed by ReadFramework and ReadModule to set flag
 
 add_definitions("-DREAD_TUWIEN")
 
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /DQT_NO_DEBUG_OUTPUT")
+
 add_subdirectory(nomacs/ImageLounge)
 add_subdirectory(ReadFramework)
 set(NOMACS_VARS_ALREADY_SET true)
