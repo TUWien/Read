@@ -5,6 +5,8 @@ PROJECT(READ)
 
 set(GLOBAL_READ_BUILD true) # needed by ReadFramework and ReadModule to set flags for ReallyRelease
 
+add_definitions("-DREAD_TUWIEN")
+
 add_subdirectory(nomacs/ImageLounge)
 add_subdirectory(ReadFramework)
 set(NOMACS_VARS_ALREADY_SET true)
