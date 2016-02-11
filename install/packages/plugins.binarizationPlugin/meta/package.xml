@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-	<DisplayName>PAGE Visualization</DisplayName>
-	<Description>Visualizes PAGE XML files in nomacs.</Description>
+	<DisplayName>Document Binarization</DisplayName>
+	<Description>Document Binarization Plugin</Description>
 	<Version>0.1.0</Version>
 	<ReleaseDate>2016-02-11</ReleaseDate>
 	<Default>true</Default>

@@ -6,6 +6,7 @@
 *.filters
 *.htm
 *.aps
+*.7z*
 release
 debug
 _UpgradeReport_Files
@@ -13,6 +14,6 @@ Backup
 build*
 msvc*
 data
-installer/repository
+install/repository*
 /.project
 CMakeUser.cmake

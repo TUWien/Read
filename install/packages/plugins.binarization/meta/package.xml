@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package>
-    <DisplayName>Binarization</DisplayName>
-    <Description>Binarize document images.</Description>
-    <Version>0.1.0</Version>
-    <ReleaseDate>2016-02-10</ReleaseDate>
-    <Default>true</Default>
-</Package>
