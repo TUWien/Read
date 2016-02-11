@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>READ</Name>
+    <Version>3.0.0</Version>
+    <Title>READ</Title>
+    <Publisher>TU Wien</Publisher>
+    <StartMenuDir>READ Framework</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/READ Framework</TargetDir>
+	<InstallerWindowIcon>logo.png</InstallerWindowIcon>
+	<InstallerApplicationIcon>logo</InstallerApplicationIcon>
+
+ 	<RemoteRepositories>
+		 <Repository>
+				 <Url>ftp://scruffy.caa.tuwien.ac.at/staff/read/repository</Url>
+				 <Enabled>1</Enabled>
+				 <Username></Username>
+				 <Password></Password>
+				 <DisplayName>READ Framework - TU Wien</DisplayName>
+		 </Repository>
+	</RemoteRepositories>
+</Installer>
